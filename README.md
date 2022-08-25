@@ -10,6 +10,14 @@ cat ~/.ssh/id_ed25519
 
 Copy it to the GitHub
 
+# GitHub SSH Key Set up for Vscode
+Generate a pair of public/private key
+
+You can use the one for GitHub
+
+In Git Bash run `ssh-copy-id username@hostname`, it will copy the public key that you have
+over into the credentials into the remote machine. Now you can login passwordless!
+
 # VMWare .vmk to work with side buttons 
 mouse.vusb.enable = "TRUE"
 mouse.vusb.useBasicMouse = "FALSE"
