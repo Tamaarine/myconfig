@@ -1,3 +1,4 @@
+```
 # GitHub SSH Key set up
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -34,3 +35,4 @@ Shift_L,   Up,   Shift_L|Button4
 Shift_L,   Down, Shift_L|Button5
 
 Run `imwheel -b "4 5"`
+```
