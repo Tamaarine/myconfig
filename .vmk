@@ -1,0 +1,3 @@
+mouse.vusb.enable = "TRUE"
+mouse.vusb.useBasicMouse = "FALSE"
+usb.generic.allowHID = "TRUE"
