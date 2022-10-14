@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "module.h": "c",
+        "kernel.h": "c",
+        "rculist.h": "c",
+        "inet.h": "c"
+    }
+}

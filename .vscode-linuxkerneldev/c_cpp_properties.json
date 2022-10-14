@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**"
+                "/home/tamarine/Document/linux/include",
+                "/home/tamarine/Document/linux/arch/x86/include",
+                "/home/tamarine/Document/linux/arch/x86/include",
+                "/home/tamarine/Document/linux/arch/x86/include/generated",
+                "/home/tamarine/Document/linux/arch/x86/include/uapi",
+                "/home/tamarine/Document/linux/arch/x86/include/generated/uapi",
+                "/home/tamarine/Document/linux/include/uapi",
+                "/home/tamarine/Document/linux/include/generated/uapi"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
