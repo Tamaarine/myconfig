@@ -1,0 +1,30 @@
+server {
+    listen 80;
+    server_name tamarine.me;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /data/tamarine.me;
+    }
+    location / {
+        include proxy_params;
+        proxy_pass http://localhost:8003;
+    }
+}
+server {
+    listen 80;
+    server_name teamalgomarket.tamarine.me;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /data/KTMFC/AlgoMarket;
+    }
+
+    location /media/ {
+        root /data/KTMFC/AlgoMarket;
+    }
+    location / {
+        include proxy_params;
+        proxy_pass http://localhost:8002;
+    }
+}
