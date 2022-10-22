@@ -13,6 +13,9 @@ sudo apt-get install -y zsh
 echo "Installing Git" | figlet -f mini -k
 sudo apt-get install -y git  
 
+echo "Installing tmux" | figlet -f mini -k
+sudo apt-get install -y tmux  
+
 echo "Installing Imwheel" | figlet -f mini -k
 sudo apt-get install -y imwheel  
 
