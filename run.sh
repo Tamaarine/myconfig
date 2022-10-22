@@ -28,4 +28,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 echo "Installing .zshrc from Tamaarine" | figlet -f mini -k
 curl https://raw.githubusercontent.com/Tamaarine/myconfig/main/.zshrc > ~/.zshrc
 
+echo "Installing .vimrc from Tamaarine" | figlet -f mini -k
+curl https://raw.githubusercontent.com/Tamaarine/myconfig/main/.vimrc > ~/.vimrc
+
 echo "Done configuring oh-my-zsh restart your terminal to have the change take effect"
